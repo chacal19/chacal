@@ -1,13 +1,5 @@
 # chacal
 <?php
-      ///////////////////////////////
-     ///////  PHP Proxy 1.0  ///////
-    //////    (Alpha)        //////
-   /////   By kingless       /////
-  ///////////////////////////////
- /// http://www.kingless.net ///
-///////////////////////////////
-
 $proxy = new PHP_PROXY( @$_REQUEST['url'], @$_REQUEST['method'] );
 
 class PHP_PROXY {
